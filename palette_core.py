@@ -337,8 +337,8 @@ def format_color(r: int, g: int, b: int, alpha: float) -> Dict[str, str]:
 
 def relative_luminance(r: int, g: int, b: int) -> float:
     def channel(value: int) -> float:
-        value: float = clamp(value, 0, 255) / 255
-        return value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4
+        normalized = clamp(value, 0, 255) / 255
+        return normalized / 12.92 if normalized <= 0.04045 else ((normalized + 0.055) / 1.055) ** 2.4
 
     r_l = channel(r)
     g_l = channel(g)
