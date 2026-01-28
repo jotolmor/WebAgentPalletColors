@@ -1,0 +1,1922 @@
+[
+  {
+    "created_at": "2026-01-28T10:25:32.864406+00:00",
+    "sentiment": "calma",
+    "idea": "Portfolio minimalista",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 184,
+        "saturation": 11,
+        "lightness": 84,
+        "formats": {
+          "rgb": "rgb(210, 218, 219)",
+          "rgba": "rgba(210, 218, 219, 0.84)",
+          "hex": "#D2DADB",
+          "hsl": "hsl(187, 11%, 84%)",
+          "hsla": "hsla(187, 11%, 84%, 0.84)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 196,
+        "saturation": 26,
+        "lightness": 84,
+        "formats": {
+          "rgb": "rgb(204, 219, 225)",
+          "rgba": "rgba(204, 219, 225, 0.77)",
+          "hex": "#CCDBE1",
+          "hsl": "hsl(197, 26%, 84%)",
+          "hsla": "hsla(197, 26%, 84%, 0.77)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 203,
+        "saturation": 16,
+        "lightness": 85,
+        "formats": {
+          "rgb": "rgb(211, 218, 223)",
+          "rgba": "rgba(211, 218, 223, 0.92)",
+          "hex": "#D3DADF",
+          "hsl": "hsl(205, 16%, 85%)",
+          "hsla": "hsla(205, 16%, 85%, 0.92)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 221,
+        "saturation": 30,
+        "lightness": 82,
+        "formats": {
+          "rgb": "rgb(195, 204, 223)",
+          "rgba": "rgba(195, 204, 223, 0.82)",
+          "hex": "#C3CCDF",
+          "hsl": "hsl(221, 30%, 82%)",
+          "hsla": "hsla(221, 30%, 82%, 0.82)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 182,
+        "saturation": 14,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(200, 213, 213)",
+          "rgba": "rgba(200, 213, 213, 0.82)",
+          "hex": "#C8D5D5",
+          "hsl": "hsl(180, 13%, 81%)",
+          "hsla": "hsla(180, 13%, 81%, 0.82)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:37:27.467240+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 23,
+        "saturation": 78,
+        "lightness": 46,
+        "formats": {
+          "rgb": "rgb(209, 96, 26)",
+          "rgba": "rgba(209, 96, 26, 0.76)",
+          "hex": "#D1601A",
+          "hsl": "hsl(23, 78%, 46%)",
+          "hsla": "hsla(23, 78%, 46%, 0.76)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 29,
+        "saturation": 81,
+        "lightness": 55,
+        "formats": {
+          "rgb": "rgb(233, 137, 47)",
+          "rgba": "rgba(233, 137, 47, 0.84)",
+          "hex": "#E9892F",
+          "hsl": "hsl(29, 81%, 55%)",
+          "hsla": "hsla(29, 81%, 55%, 0.84)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 45,
+        "saturation": 88,
+        "lightness": 54,
+        "formats": {
+          "rgb": "rgb(241, 189, 34)",
+          "rgba": "rgba(241, 189, 34, 0.75)",
+          "hex": "#F1BD22",
+          "hsl": "hsl(45, 88%, 54%)",
+          "hsla": "hsla(45, 88%, 54%, 0.75)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 2,
+        "saturation": 72,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(225, 76, 71)",
+          "rgba": "rgba(225, 76, 71, 0.75)",
+          "hex": "#E14C47",
+          "hsl": "hsl(2, 72%, 58%)",
+          "hsla": "hsla(2, 72%, 58%, 0.75)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 335,
+        "saturation": 84,
+        "lightness": 53,
+        "formats": {
+          "rgb": "rgb(236, 34, 118)",
+          "rgba": "rgba(236, 34, 118, 0.78)",
+          "hex": "#EC2276",
+          "hsl": "hsl(335, 84%, 53%)",
+          "hsla": "hsla(335, 84%, 53%, 0.78)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:37:49.250110+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 10,
+        "saturation": 20,
+        "lightness": 86,
+        "formats": {
+          "rgb": "rgb(226, 215, 212)",
+          "rgba": "rgba(226, 215, 212, 0.92)",
+          "hex": "#E2D7D4",
+          "hsl": "hsl(13, 19%, 86%)",
+          "hsla": "hsla(13, 19%, 86%, 0.92)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 26,
+        "saturation": 18,
+        "lightness": 90,
+        "formats": {
+          "rgb": "rgb(234, 229, 225)",
+          "rgba": "rgba(234, 229, 225, 0.86)",
+          "hex": "#EAE5E1",
+          "hsl": "hsl(27, 18%, 90%)",
+          "hsla": "hsla(27, 18%, 90%, 0.86)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 47,
+        "saturation": 12,
+        "lightness": 90,
+        "formats": {
+          "rgb": "rgb(233, 231, 226)",
+          "rgba": "rgba(233, 231, 226, 0.83)",
+          "hex": "#E9E7E2",
+          "hsl": "hsl(43, 14%, 90%)",
+          "hsla": "hsla(43, 14%, 90%, 0.83)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 359,
+        "saturation": 30,
+        "lightness": 82,
+        "formats": {
+          "rgb": "rgb(223, 195, 196)",
+          "rgba": "rgba(223, 195, 196, 0.83)",
+          "hex": "#DFC3C4",
+          "hsl": "hsl(358, 30%, 82%)",
+          "hsla": "hsla(358, 30%, 82%, 0.83)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 338,
+        "saturation": 29,
+        "lightness": 78,
+        "formats": {
+          "rgb": "rgb(215, 183, 195)",
+          "rgba": "rgba(215, 183, 195, 0.94)",
+          "hex": "#D7B7C3",
+          "hsl": "hsl(338, 29%, 78%)",
+          "hsla": "hsla(338, 29%, 78%, 0.94)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:38:01.178671+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "retro",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 18,
+        "saturation": 46,
+        "lightness": 66,
+        "formats": {
+          "rgb": "rgb(208, 152, 128)",
+          "rgba": "rgba(208, 152, 128, 0.79)",
+          "hex": "#D09880",
+          "hsl": "hsl(18, 46%, 66%)",
+          "hsla": "hsla(18, 46%, 66%, 0.79)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 21,
+        "saturation": 64,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(216, 124, 75)",
+          "rgba": "rgba(216, 124, 75, 0.93)",
+          "hex": "#D87C4B",
+          "hsl": "hsl(21, 64%, 57%)",
+          "hsla": "hsla(21, 64%, 57%, 0.93)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 44,
+        "saturation": 64,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(216, 178, 75)",
+          "rgba": "rgba(216, 178, 75, 0.81)",
+          "hex": "#D8B24B",
+          "hsl": "hsl(44, 64%, 57%)",
+          "hsla": "hsla(44, 64%, 57%, 0.81)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 1,
+        "saturation": 60,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(204, 54, 51)",
+          "rgba": "rgba(204, 54, 51, 0.88)",
+          "hex": "#CC3633",
+          "hsl": "hsl(1, 60%, 50%)",
+          "hsla": "hsla(1, 60%, 50%, 0.88)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 323,
+        "saturation": 45,
+        "lightness": 61,
+        "formats": {
+          "rgb": "rgb(200, 111, 166)",
+          "rgba": "rgba(200, 111, 166, 0.83)",
+          "hex": "#C86FA6",
+          "hsl": "hsl(323, 45%, 61%)",
+          "hsla": "hsla(323, 45%, 61%, 0.83)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:38:10.460169+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "futurista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 9,
+        "saturation": 79,
+        "lightness": 43,
+        "formats": {
+          "rgb": "rgb(196, 49, 23)",
+          "rgba": "rgba(196, 49, 23, 0.93)",
+          "hex": "#C43117",
+          "hsl": "hsl(9, 79%, 43%)",
+          "hsla": "hsla(9, 79%, 43%, 0.93)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 32,
+        "saturation": 66,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(219, 155, 81)",
+          "rgba": "rgba(219, 155, 81, 0.78)",
+          "hex": "#DB9B51",
+          "hsl": "hsl(32, 66%, 59%)",
+          "hsla": "hsla(32, 66%, 59%, 0.78)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 40,
+        "saturation": 60,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(210, 165, 75)",
+          "rgba": "rgba(210, 165, 75, 0.91)",
+          "hex": "#D2A54B",
+          "hsl": "hsl(40, 60%, 56%)",
+          "hsla": "hsla(40, 60%, 56%, 0.91)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 13,
+        "saturation": 56,
+        "lightness": 45,
+        "formats": {
+          "rgb": "rgb(179, 78, 50)",
+          "rgba": "rgba(179, 78, 50, 0.94)",
+          "hex": "#B34E32",
+          "hsl": "hsl(13, 56%, 45%)",
+          "hsla": "hsla(13, 56%, 45%, 0.94)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 334,
+        "saturation": 56,
+        "lightness": 48,
+        "formats": {
+          "rgb": "rgb(191, 54, 113)",
+          "rgba": "rgba(191, 54, 113, 0.87)",
+          "hex": "#BF3671",
+          "hsl": "hsl(334, 56%, 48%)",
+          "hsla": "hsla(334, 56%, 48%, 0.87)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:38:38.390686+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "futurista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 12,
+        "saturation": 65,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(212, 85, 53)",
+          "rgba": "rgba(212, 85, 53, 0.82)",
+          "hex": "#D45535",
+          "hsl": "hsl(12, 65%, 52%)",
+          "hsla": "hsla(12, 65%, 52%, 0.82)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 25,
+        "saturation": 62,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(212, 131, 73)",
+          "rgba": "rgba(212, 131, 73, 0.87)",
+          "hex": "#D48349",
+          "hsl": "hsl(25, 62%, 56%)",
+          "hsla": "hsla(25, 62%, 56%, 0.87)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 39,
+        "saturation": 66,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(199, 144, 41)",
+          "rgba": "rgba(199, 144, 41, 0.77)",
+          "hex": "#C79029",
+          "hsl": "hsl(39, 66%, 47%)",
+          "hsla": "hsla(39, 66%, 47%, 0.77)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 8,
+        "saturation": 84,
+        "lightness": 41,
+        "formats": {
+          "rgb": "rgb(192, 40, 17)",
+          "rgba": "rgba(192, 40, 17, 0.90)",
+          "hex": "#C02811",
+          "hsl": "hsl(8, 84%, 41%)",
+          "hsla": "hsla(8, 84%, 41%, 0.90)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 334,
+        "saturation": 84,
+        "lightness": 42,
+        "formats": {
+          "rgb": "rgb(197, 17, 95)",
+          "rgba": "rgba(197, 17, 95, 0.93)",
+          "hex": "#C5115F",
+          "hsl": "hsl(334, 84%, 42%)",
+          "hsla": "hsla(334, 84%, 42%, 0.93)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:38:52.358522+00:00",
+    "sentiment": "Vitalidad",
+    "idea": "Landing page portfolio",
+    "style": "futurista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 23,
+        "saturation": 61,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(214, 136, 87)",
+          "rgba": "rgba(214, 136, 87, 0.86)",
+          "hex": "#D68857",
+          "hsl": "hsl(23, 61%, 59%)",
+          "hsla": "hsla(23, 61%, 59%, 0.86)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 31,
+        "saturation": 72,
+        "lightness": 44,
+        "formats": {
+          "rgb": "rgb(193, 115, 31)",
+          "rgba": "rgba(193, 115, 31, 0.86)",
+          "hex": "#C1731F",
+          "hsl": "hsl(31, 72%, 44%)",
+          "hsla": "hsla(31, 72%, 44%, 0.86)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 37,
+        "saturation": 83,
+        "lightness": 44,
+        "formats": {
+          "rgb": "rgb(205, 134, 19)",
+          "rgba": "rgba(205, 134, 19, 0.76)",
+          "hex": "#CD8613",
+          "hsl": "hsl(37, 83%, 44%)",
+          "hsla": "hsla(37, 83%, 44%, 0.76)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 9,
+        "saturation": 66,
+        "lightness": 42,
+        "formats": {
+          "rgb": "rgb(178, 58, 36)",
+          "rgba": "rgba(178, 58, 36, 0.85)",
+          "hex": "#B23A24",
+          "hsl": "hsl(9, 66%, 42%)",
+          "hsla": "hsla(9, 66%, 42%, 0.85)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 336,
+        "saturation": 82,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(235, 55, 127)",
+          "rgba": "rgba(235, 55, 127, 0.83)",
+          "hex": "#EB377F",
+          "hsl": "hsl(336, 82%, 57%)",
+          "hsla": "hsla(336, 82%, 57%, 0.83)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:39:14.509976+00:00",
+    "sentiment": "tristeza",
+    "idea": "Landing page portfolio",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 206,
+        "saturation": 13,
+        "lightness": 76,
+        "formats": {
+          "rgb": "rgb(186, 195, 202)",
+          "rgba": "rgba(186, 195, 202, 0.78)",
+          "hex": "#BAC3CA",
+          "hsl": "hsl(206, 13%, 76%)",
+          "hsla": "hsla(206, 13%, 76%, 0.78)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 210,
+        "saturation": 27,
+        "lightness": 92,
+        "formats": {
+          "rgb": "rgb(229, 235, 240)",
+          "rgba": "rgba(229, 235, 240, 0.80)",
+          "hex": "#E5EBF0",
+          "hsl": "hsl(207, 27%, 92%)",
+          "hsla": "hsla(207, 27%, 92%, 0.80)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 230,
+        "saturation": 20,
+        "lightness": 85,
+        "formats": {
+          "rgb": "rgb(209, 212, 224)",
+          "rgba": "rgba(209, 212, 224, 0.92)",
+          "hex": "#D1D4E0",
+          "hsl": "hsl(228, 19%, 85%)",
+          "hsla": "hsla(228, 19%, 85%, 0.92)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 246,
+        "saturation": 17,
+        "lightness": 83,
+        "formats": {
+          "rgb": "rgb(206, 204, 219)",
+          "rgba": "rgba(206, 204, 219, 0.87)",
+          "hex": "#CECCDB",
+          "hsl": "hsl(248, 17%, 83%)",
+          "hsla": "hsla(248, 17%, 83%, 0.87)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 198,
+        "saturation": 15,
+        "lightness": 93,
+        "formats": {
+          "rgb": "rgb(234, 238, 240)",
+          "rgba": "rgba(234, 238, 240, 0.84)",
+          "hex": "#EAEEF0",
+          "hsl": "hsl(200, 17%, 93%)",
+          "hsla": "hsla(200, 17%, 93%, 0.84)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:39:32.255551+00:00",
+    "sentiment": "alegre",
+    "idea": "Landing page portfolio",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 213,
+        "saturation": 18,
+        "lightness": 80,
+        "formats": {
+          "rgb": "rgb(195, 203, 213)",
+          "rgba": "rgba(195, 203, 213, 0.94)",
+          "hex": "#C3CBD5",
+          "hsl": "hsl(213, 18%, 80%)",
+          "hsla": "hsla(213, 18%, 80%, 0.94)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 213,
+        "saturation": 27,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(226, 231, 238)",
+          "rgba": "rgba(226, 231, 238, 0.89)",
+          "hex": "#E2E7EE",
+          "hsl": "hsl(215, 26%, 91%)",
+          "hsla": "hsla(215, 26%, 91%, 0.89)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 226,
+        "saturation": 19,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(228, 230, 236)",
+          "rgba": "rgba(228, 230, 236, 0.86)",
+          "hex": "#E4E6EC",
+          "hsl": "hsl(225, 17%, 91%)",
+          "hsla": "hsla(225, 17%, 91%, 0.86)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 237,
+        "saturation": 29,
+        "lightness": 86,
+        "formats": {
+          "rgb": "rgb(209, 210, 230)",
+          "rgba": "rgba(209, 210, 230, 0.90)",
+          "hex": "#D1D2E6",
+          "hsl": "hsl(237, 30%, 86%)",
+          "hsla": "hsla(237, 30%, 86%, 0.90)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 202,
+        "saturation": 13,
+        "lightness": 95,
+        "formats": {
+          "rgb": "rgb(241, 243, 244)",
+          "rgba": "rgba(241, 243, 244, 0.83)",
+          "hex": "#F1F3F4",
+          "hsl": "hsl(200, 12%, 95%)",
+          "hsla": "hsla(200, 12%, 95%, 0.83)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:39:56.162113+00:00",
+    "sentiment": "alegre vivo",
+    "idea": "portfolio",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 205,
+        "saturation": 29,
+        "lightness": 92,
+        "formats": {
+          "rgb": "rgb(229, 236, 241)",
+          "rgba": "rgba(229, 236, 241, 0.81)",
+          "hex": "#E5ECF1",
+          "hsl": "hsl(205, 30%, 92%)",
+          "hsla": "hsla(205, 30%, 92%, 0.81)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 213,
+        "saturation": 23,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(195, 205, 218)",
+          "rgba": "rgba(195, 205, 218, 0.85)",
+          "hex": "#C3CDDA",
+          "hsl": "hsl(214, 24%, 81%)",
+          "hsla": "hsla(214, 24%, 81%, 0.85)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 224,
+        "saturation": 13,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(200, 204, 213)",
+          "rgba": "rgba(200, 204, 213, 0.92)",
+          "hex": "#C8CCD5",
+          "hsl": "hsl(222, 13%, 81%)",
+          "hsla": "hsla(222, 13%, 81%, 0.92)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 234,
+        "saturation": 23,
+        "lightness": 92,
+        "formats": {
+          "rgb": "rgb(230, 231, 239)",
+          "rgba": "rgba(230, 231, 239, 0.83)",
+          "hex": "#E6E7EF",
+          "hsl": "hsl(233, 22%, 92%)",
+          "hsla": "hsla(233, 22%, 92%, 0.83)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 198,
+        "saturation": 12,
+        "lightness": 85,
+        "formats": {
+          "rgb": "rgb(212, 219, 221)",
+          "rgba": "rgba(212, 219, 221, 0.81)",
+          "hex": "#D4DBDD",
+          "hsl": "hsl(193, 12%, 85%)",
+          "hsla": "hsla(193, 12%, 85%, 0.81)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:40:09.666704+00:00",
+    "sentiment": "alegre vivo",
+    "idea": "portfolio",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 200,
+        "saturation": 95,
+        "lightness": 48,
+        "formats": {
+          "rgb": "rgb(6, 161, 239)",
+          "rgba": "rgba(6, 161, 239, 0.80)",
+          "hex": "#06A1EF",
+          "hsl": "hsl(200, 95%, 48%)",
+          "hsla": "hsla(200, 95%, 48%, 0.80)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 209,
+        "saturation": 76,
+        "lightness": 46,
+        "formats": {
+          "rgb": "rgb(28, 120, 206)",
+          "rgba": "rgba(28, 120, 206, 0.80)",
+          "hex": "#1C78CE",
+          "hsl": "hsl(209, 76%, 46%)",
+          "hsla": "hsla(209, 76%, 46%, 0.80)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 231,
+        "saturation": 82,
+        "lightness": 53,
+        "formats": {
+          "rgb": "rgb(37, 66, 233)",
+          "rgba": "rgba(37, 66, 233, 0.86)",
+          "hex": "#2542E9",
+          "hsl": "hsl(231, 82%, 53%)",
+          "hsla": "hsla(231, 82%, 53%, 0.86)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 239,
+        "saturation": 89,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(19, 23, 241)",
+          "rgba": "rgba(19, 23, 241, 0.85)",
+          "hex": "#1317F1",
+          "hsl": "hsl(239, 89%, 51%)",
+          "hsla": "hsla(239, 89%, 51%, 0.85)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 198,
+        "saturation": 79,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(59, 180, 232)",
+          "rgba": "rgba(59, 180, 232, 0.84)",
+          "hex": "#3BB4E8",
+          "hsl": "hsl(198, 79%, 57%)",
+          "hsla": "hsla(198, 79%, 57%, 0.84)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T10:54:48.525814+00:00",
+    "sentiment": "otoño",
+    "idea": "portfolio",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 210,
+        "saturation": 24,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(195, 207, 218)",
+          "rgba": "rgba(195, 207, 218, 0.81)",
+          "hex": "#C3CFDA",
+          "hsl": "hsl(209, 24%, 81%)",
+          "hsla": "hsla(209, 24%, 81%, 0.81)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 219,
+        "saturation": 27,
+        "lightness": 78,
+        "formats": {
+          "rgb": "rgb(184, 194, 214)",
+          "rgba": "rgba(184, 194, 214, 0.93)",
+          "hex": "#B8C2D6",
+          "hsl": "hsl(220, 27%, 78%)",
+          "hsla": "hsla(220, 27%, 78%, 0.93)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 218,
+        "saturation": 13,
+        "lightness": 82,
+        "formats": {
+          "rgb": "rgb(203, 208, 215)",
+          "rgba": "rgba(203, 208, 215, 0.79)",
+          "hex": "#CBD0D7",
+          "hsl": "hsl(215, 13%, 82%)",
+          "hsla": "hsla(215, 13%, 82%, 0.79)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 237,
+        "saturation": 23,
+        "lightness": 93,
+        "formats": {
+          "rgb": "rgb(233, 233, 241)",
+          "rgba": "rgba(233, 233, 241, 0.89)",
+          "hex": "#E9E9F1",
+          "hsl": "hsl(240, 22%, 93%)",
+          "hsla": "hsla(240, 22%, 93%, 0.89)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 198,
+        "saturation": 10,
+        "lightness": 85,
+        "formats": {
+          "rgb": "rgb(213, 218, 221)",
+          "rgba": "rgba(213, 218, 221, 0.84)",
+          "hex": "#D5DADD",
+          "hsl": "hsl(203, 11%, 85%)",
+          "hsla": "hsla(203, 11%, 85%, 0.84)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T12:55:50.371986+00:00",
+    "sentiment": "amanecer",
+    "idea": "Landing de bienestar",
+    "style": "futurista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 210,
+        "saturation": 80,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(35, 133, 231)",
+          "rgba": "rgba(35, 133, 231, 0.90)",
+          "hex": "#2385E7",
+          "hsl": "hsl(210, 80%, 52%)",
+          "hsla": "hsla(210, 80%, 52%, 0.90)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 212,
+        "saturation": 63,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(72, 138, 213)",
+          "rgba": "rgba(72, 138, 213, 0.92)",
+          "hex": "#488AD5",
+          "hsl": "hsl(212, 63%, 56%)",
+          "hsla": "hsla(212, 63%, 56%, 0.92)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 228,
+        "saturation": 79,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(31, 71, 229)",
+          "rgba": "rgba(31, 71, 229, 0.77)",
+          "hex": "#1F47E5",
+          "hsl": "hsl(228, 79%, 51%)",
+          "hsla": "hsla(228, 79%, 51%, 0.77)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 237,
+        "saturation": 72,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(36, 45, 219)",
+          "rgba": "rgba(36, 45, 219, 0.87)",
+          "hex": "#242DDB",
+          "hsl": "hsl(237, 72%, 50%)",
+          "hsla": "hsla(237, 72%, 50%, 0.87)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 205,
+        "saturation": 72,
+        "lightness": 41,
+        "formats": {
+          "rgb": "rgb(29, 117, 180)",
+          "rgba": "rgba(29, 117, 180, 0.90)",
+          "hex": "#1D75B4",
+          "hsl": "hsl(205, 72%, 41%)",
+          "hsla": "hsla(205, 72%, 41%, 0.90)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:08:56.447187+00:00",
+    "sentiment": "estaciones",
+    "idea": "Landing de bienestar",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 203,
+        "saturation": 72,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(34, 140, 206)",
+          "rgba": "rgba(34, 140, 206, 0.90)",
+          "hex": "#228CCE",
+          "hsl": "hsl(203, 72%, 47%)",
+          "hsla": "hsla(203, 72%, 47%, 0.90)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 215,
+        "saturation": 95,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(56, 137, 250)",
+          "rgba": "rgba(56, 137, 250, 0.85)",
+          "hex": "#3889FA",
+          "hsl": "hsl(215, 95%, 60%)",
+          "hsla": "hsla(215, 95%, 60%, 0.85)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 219,
+        "saturation": 83,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(50, 115, 236)",
+          "rgba": "rgba(50, 115, 236, 0.88)",
+          "hex": "#3273EC",
+          "hsl": "hsl(219, 83%, 56%)",
+          "hsla": "hsla(219, 83%, 56%, 0.88)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 234,
+        "saturation": 77,
+        "lightness": 55,
+        "formats": {
+          "rgb": "rgb(52, 70, 229)",
+          "rgba": "rgba(52, 70, 229, 0.82)",
+          "hex": "#3446E5",
+          "hsl": "hsl(234, 77%, 55%)",
+          "hsla": "hsla(234, 77%, 55%, 0.82)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 199,
+        "saturation": 92,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(54, 186, 247)",
+          "rgba": "rgba(54, 186, 247, 0.82)",
+          "hex": "#36BAF7",
+          "hsl": "hsl(199, 92%, 59%)",
+          "hsla": "hsla(199, 92%, 59%, 0.82)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:09:48.437714+00:00",
+    "sentiment": "energia",
+    "idea": "Landing de bienestar",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 17,
+        "saturation": 82,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(237, 117, 69)",
+          "rgba": "rgba(237, 117, 69, 0.82)",
+          "hex": "#ED7545",
+          "hsl": "hsl(17, 82%, 60%)",
+          "hsla": "hsla(17, 82%, 60%, 0.82)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 28,
+        "saturation": 92,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(230, 112, 10)",
+          "rgba": "rgba(230, 112, 10, 0.89)",
+          "hex": "#E6700A",
+          "hsl": "hsl(28, 92%, 47%)",
+          "hsla": "hsla(28, 92%, 47%, 0.89)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 34,
+        "saturation": 92,
+        "lightness": 55,
+        "formats": {
+          "rgb": "rgb(246, 154, 35)",
+          "rgba": "rgba(246, 154, 35, 0.87)",
+          "hex": "#F69A23",
+          "hsl": "hsl(34, 92%, 55%)",
+          "hsla": "hsla(34, 92%, 55%, 0.87)"
+        }
+      },
+      {
+        "name": "Color 4",
+        "hue": 9,
+        "saturation": 71,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(225, 102, 81)",
+          "rgba": "rgba(225, 102, 81, 0.94)",
+          "hex": "#E16651",
+          "hsl": "hsl(9, 71%, 60%)",
+          "hsla": "hsla(9, 71%, 60%, 0.94)"
+        }
+      },
+      {
+        "name": "Color 5",
+        "hue": 325,
+        "saturation": 88,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(225, 14, 137)",
+          "rgba": "rgba(225, 14, 137, 0.82)",
+          "hex": "#E10E89",
+          "hsl": "hsl(325, 88%, 47%)",
+          "hsla": "hsla(325, 88%, 47%, 0.82)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:10:34.075738+00:00",
+    "sentiment": "energia",
+    "idea": "Landing de bienestar",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 16,
+        "saturation": 84,
+        "lightness": 49,
+        "formats": {
+          "rgb": "rgb(230, 76, 20)",
+          "rgba": "rgba(230, 76, 20, 0.89)",
+          "hex": "#E64C14",
+          "hsl": "hsl(16, 84%, 49%)",
+          "hsla": "hsla(16, 84%, 49%, 0.89)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 23,
+        "saturation": 94,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(249, 124, 47)",
+          "rgba": "rgba(249, 124, 47, 0.76)",
+          "hex": "#F97C2F",
+          "hsl": "hsl(23, 94%, 58%)",
+          "hsla": "hsla(23, 94%, 58%, 0.76)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 40,
+        "saturation": 93,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(246, 169, 14)",
+          "rgba": "rgba(246, 169, 14, 0.95)",
+          "hex": "#F6A90E",
+          "hsl": "hsl(40, 93%, 51%)",
+          "hsla": "hsla(40, 93%, 51%, 0.95)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:10:49.388585+00:00",
+    "sentiment": "energia",
+    "idea": "Landing de bienestar",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 7,
+        "saturation": 70,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(221, 83, 64)",
+          "rgba": "rgba(221, 83, 64, 0.90)",
+          "hex": "#DD5340",
+          "hsl": "hsl(7, 70%, 56%)",
+          "hsla": "hsla(7, 70%, 56%, 0.90)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 21,
+        "saturation": 90,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(243, 100, 22)",
+          "rgba": "rgba(243, 100, 22, 0.93)",
+          "hex": "#F36416",
+          "hsl": "hsl(21, 90%, 52%)",
+          "hsla": "hsla(21, 90%, 52%, 0.93)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 42,
+        "saturation": 94,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(249, 190, 52)",
+          "rgba": "rgba(249, 190, 52, 0.88)",
+          "hex": "#F9BE34",
+          "hsl": "hsl(42, 94%, 59%)",
+          "hsla": "hsla(42, 94%, 59%, 0.88)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:10:58.606570+00:00",
+    "sentiment": "amanecer",
+    "idea": "Landing de bienestar",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 203,
+        "saturation": 73,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(32, 140, 207)",
+          "rgba": "rgba(32, 140, 207, 0.91)",
+          "hex": "#208CCF",
+          "hsl": "hsl(203, 73%, 47%)",
+          "hsla": "hsla(203, 73%, 47%, 0.91)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 210,
+        "saturation": 87,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(59, 150, 241)",
+          "rgba": "rgba(59, 150, 241, 0.93)",
+          "hex": "#3B96F1",
+          "hsl": "hsl(210, 87%, 59%)",
+          "hsla": "hsla(210, 87%, 59%, 0.93)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 220,
+        "saturation": 81,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(33, 100, 232)",
+          "rgba": "rgba(33, 100, 232, 0.88)",
+          "hex": "#2164E8",
+          "hsl": "hsl(220, 81%, 52%)",
+          "hsla": "hsla(220, 81%, 52%, 0.88)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:11:18.550065+00:00",
+    "sentiment": "amanecer",
+    "idea": "amanacer",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 209,
+        "saturation": 82,
+        "lightness": 45,
+        "formats": {
+          "rgb": "rgb(21, 118, 209)",
+          "rgba": "rgba(21, 118, 209, 0.76)",
+          "hex": "#1576D1",
+          "hsl": "hsl(209, 82%, 45%)",
+          "hsla": "hsla(209, 82%, 45%, 0.76)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 208,
+        "saturation": 92,
+        "lightness": 46,
+        "formats": {
+          "rgb": "rgb(9, 124, 225)",
+          "rgba": "rgba(9, 124, 225, 0.82)",
+          "hex": "#097CE1",
+          "hsl": "hsl(208, 92%, 46%)",
+          "hsla": "hsla(208, 92%, 46%, 0.82)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 226,
+        "saturation": 78,
+        "lightness": 53,
+        "formats": {
+          "rgb": "rgb(42, 85, 229)",
+          "rgba": "rgba(42, 85, 229, 0.95)",
+          "hex": "#2A55E5",
+          "hsl": "hsl(226, 78%, 53%)",
+          "hsla": "hsla(226, 78%, 53%, 0.95)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:11:25.671643+00:00",
+    "sentiment": "atardecer",
+    "idea": "amanacer",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 211,
+        "saturation": 81,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(70, 150, 236)",
+          "rgba": "rgba(70, 150, 236, 0.95)",
+          "hex": "#4696EC",
+          "hsl": "hsl(211, 81%, 60%)",
+          "hsla": "hsla(211, 81%, 60%, 0.95)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 220,
+        "saturation": 95,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(46, 114, 250)",
+          "rgba": "rgba(46, 114, 250, 0.78)",
+          "hex": "#2E72FA",
+          "hsl": "hsl(220, 95%, 58%)",
+          "hsla": "hsla(220, 95%, 58%, 0.78)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 225,
+        "saturation": 77,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(61, 103, 230)",
+          "rgba": "rgba(61, 103, 230, 0.75)",
+          "hex": "#3D67E6",
+          "hsl": "hsl(225, 77%, 57%)",
+          "hsla": "hsla(225, 77%, 57%, 0.75)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:11:31.881183+00:00",
+    "sentiment": "estaciones",
+    "idea": "amanacer",
+    "style": "brutalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 203,
+        "saturation": 92,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(59, 175, 247)",
+          "rgba": "rgba(59, 175, 247, 0.81)",
+          "hex": "#3BAFF7",
+          "hsl": "hsl(203, 92%, 60%)",
+          "hsla": "hsla(203, 92%, 60%, 0.81)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 223,
+        "saturation": 88,
+        "lightness": 47,
+        "formats": {
+          "rgb": "rgb(14, 74, 225)",
+          "rgba": "rgba(14, 74, 225, 0.91)",
+          "hex": "#0E4AE1",
+          "hsl": "hsl(223, 88%, 47%)",
+          "hsla": "hsla(223, 88%, 47%, 0.91)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 222,
+        "saturation": 91,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(21, 88, 244)",
+          "rgba": "rgba(21, 88, 244, 0.93)",
+          "hex": "#1558F4",
+          "hsl": "hsl(222, 91%, 52%)",
+          "hsla": "hsla(222, 91%, 52%, 0.93)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:11:55.344179+00:00",
+    "sentiment": "animales",
+    "idea": "amanacer",
+    "style": "brutalista",
+    "brand_hint": "Jorge toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 203,
+        "saturation": 83,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(22, 152, 233)",
+          "rgba": "rgba(22, 152, 233, 0.79)",
+          "hex": "#1698E9",
+          "hsl": "hsl(203, 83%, 50%)",
+          "hsla": "hsla(203, 83%, 50%, 0.79)"
+        }
+      },
+      {
+        "name": "Color 2",
+        "hue": 220,
+        "saturation": 84,
+        "lightness": 59,
+        "formats": {
+          "rgb": "rgb(63, 121, 238)",
+          "rgba": "rgba(63, 121, 238, 0.75)",
+          "hex": "#3F79EE",
+          "hsl": "hsl(220, 84%, 59%)",
+          "hsla": "hsla(220, 84%, 59%, 0.75)"
+        }
+      },
+      {
+        "name": "Color 3",
+        "hue": 232,
+        "saturation": 71,
+        "lightness": 48,
+        "formats": {
+          "rgb": "rgb(35, 59, 209)",
+          "rgba": "rgba(35, 59, 209, 0.88)",
+          "hex": "#233BD1",
+          "hsl": "hsl(232, 71%, 48%)",
+          "hsla": "hsla(232, 71%, 48%, 0.88)"
+        }
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:25:26.130424+00:00",
+    "sentiment": "animales",
+    "idea": "tigres por la selva",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 203,
+        "saturation": 23,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(227, 233, 237)",
+          "rgba": "rgba(227, 233, 237, 0.93)",
+          "hex": "#E3E9ED",
+          "hsl": "hsl(204, 22%, 91%)",
+          "hsla": "hsla(204, 22%, 91%, 0.93)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 223,
+        "saturation": 19,
+        "lightness": 83,
+        "formats": {
+          "rgb": "rgb(203, 208, 220)",
+          "rgba": "rgba(203, 208, 220, 0.85)",
+          "hex": "#CBD0DC",
+          "hsl": "hsl(222, 20%, 83%)",
+          "hsla": "hsla(222, 20%, 83%, 0.85)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 233,
+        "saturation": 19,
+        "lightness": 83,
+        "formats": {
+          "rgb": "rgb(203, 205, 220)",
+          "rgba": "rgba(203, 205, 220, 0.78)",
+          "hex": "#CBCDDC",
+          "hsl": "hsl(233, 20%, 83%)",
+          "hsla": "hsla(233, 20%, 83%, 0.78)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 233,
+        "saturation": 24,
+        "lightness": 88,
+        "formats": {
+          "rgb": "rgb(217, 219, 232)",
+          "rgba": "rgba(217, 219, 232, 0.78)",
+          "hex": "#D9DBE8",
+          "hsl": "hsl(232, 25%, 88%)",
+          "hsla": "hsla(232, 25%, 88%, 0.78)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 5",
+        "hue": 203,
+        "saturation": 29,
+        "lightness": 93,
+        "formats": {
+          "rgb": "rgb(232, 238, 242)",
+          "rgba": "rgba(232, 238, 242, 0.78)",
+          "hex": "#E8EEF2",
+          "hsl": "hsl(204, 28%, 93%)",
+          "hsla": "hsla(204, 28%, 93%, 0.78)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:25:48.472624+00:00",
+    "sentiment": "animales",
+    "idea": "tigres por la selva",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 210,
+        "saturation": 86,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(51, 145, 240)",
+          "rgba": "rgba(51, 145, 240, 0.88)",
+          "hex": "#3391F0",
+          "hsl": "hsl(210, 86%, 57%)",
+          "hsla": "hsla(210, 86%, 57%, 0.88)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 210,
+        "saturation": 76,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(62, 145, 229)",
+          "rgba": "rgba(62, 145, 229, 0.82)",
+          "hex": "#3E91E5",
+          "hsl": "hsl(210, 76%, 57%)",
+          "hsla": "hsla(210, 76%, 57%, 0.82)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 232,
+        "saturation": 81,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(70, 92, 236)",
+          "rgba": "rgba(70, 92, 236, 0.86)",
+          "hex": "#465CEC",
+          "hsl": "hsl(232, 81%, 60%)",
+          "hsla": "hsla(232, 81%, 60%, 0.86)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 4",
+        "hue": 242,
+        "saturation": 95,
+        "lightness": 45,
+        "formats": {
+          "rgb": "rgb(13, 6, 224)",
+          "rgba": "rgba(13, 6, 224, 0.79)",
+          "hex": "#0D06E0",
+          "hsl": "hsl(242, 95%, 45%)",
+          "hsla": "hsla(242, 95%, 45%, 0.79)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 207,
+        "saturation": 73,
+        "lightness": 48,
+        "formats": {
+          "rgb": "rgb(33, 131, 212)",
+          "rgba": "rgba(33, 131, 212, 0.90)",
+          "hex": "#2183D4",
+          "hsl": "hsl(207, 73%, 48%)",
+          "hsla": "hsla(207, 73%, 48%, 0.90)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:26:28.136119+00:00",
+    "sentiment": "estaciones",
+    "idea": "tigres por la selva",
+    "style": "retro",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 200,
+        "saturation": 58,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(58, 154, 203)",
+          "rgba": "rgba(58, 154, 203, 0.90)",
+          "hex": "#3A9ACB",
+          "hsl": "hsl(200, 58%, 51%)",
+          "hsla": "hsla(200, 58%, 51%, 0.90)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 219,
+        "saturation": 47,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(71, 112, 189)",
+          "rgba": "rgba(71, 112, 189, 0.86)",
+          "hex": "#4770BD",
+          "hsl": "hsl(219, 47%, 51%)",
+          "hsla": "hsla(219, 47%, 51%, 0.86)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 225,
+        "saturation": 53,
+        "lightness": 63,
+        "formats": {
+          "rgb": "rgb(111, 136, 211)",
+          "rgba": "rgba(111, 136, 211, 0.78)",
+          "hex": "#6F88D3",
+          "hsl": "hsl(225, 53%, 63%)",
+          "hsla": "hsla(225, 53%, 63%, 0.78)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 4",
+        "hue": 245,
+        "saturation": 63,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(61, 47, 208)",
+          "rgba": "rgba(61, 47, 208, 0.91)",
+          "hex": "#3D2FD0",
+          "hsl": "hsl(245, 63%, 50%)",
+          "hsla": "hsla(245, 63%, 50%, 0.91)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 200,
+        "saturation": 63,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(80, 170, 215)",
+          "rgba": "rgba(80, 170, 215, 0.95)",
+          "hex": "#50AAD7",
+          "hsl": "hsl(200, 63%, 58%)",
+          "hsla": "hsla(200, 63%, 58%, 0.95)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:26:49.204835+00:00",
+    "sentiment": "estaciones",
+    "idea": "portfolio",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 205,
+        "saturation": 76,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(67, 161, 229)",
+          "rgba": "rgba(67, 161, 229, 0.84)",
+          "hex": "#43A1E5",
+          "hsl": "hsl(205, 76%, 58%)",
+          "hsla": "hsla(205, 76%, 58%, 0.84)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 211,
+        "saturation": 89,
+        "lightness": 56,
+        "formats": {
+          "rgb": "rgb(43, 139, 243)",
+          "rgba": "rgba(43, 139, 243, 0.80)",
+          "hex": "#2B8BF3",
+          "hsl": "hsl(211, 89%, 56%)",
+          "hsla": "hsla(211, 89%, 56%, 0.80)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 229,
+        "saturation": 91,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(60, 94, 246)",
+          "rgba": "rgba(60, 94, 246, 0.87)",
+          "hex": "#3C5EF6",
+          "hsl": "hsl(229, 91%, 60%)",
+          "hsla": "hsla(229, 91%, 60%, 0.87)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 4",
+        "hue": 242,
+        "saturation": 75,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(73, 68, 228)",
+          "rgba": "rgba(73, 68, 228, 0.88)",
+          "hex": "#4944E4",
+          "hsl": "hsl(242, 75%, 58%)",
+          "hsla": "hsla(242, 75%, 58%, 0.88)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 192,
+        "saturation": 79,
+        "lightness": 58,
+        "formats": {
+          "rgb": "rgb(63, 199, 233)",
+          "rgba": "rgba(63, 199, 233, 0.82)",
+          "hex": "#3FC7E9",
+          "hsl": "hsl(192, 79%, 58%)",
+          "hsla": "hsla(192, 79%, 58%, 0.82)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:27:04.074217+00:00",
+    "sentiment": "estaciones",
+    "idea": "portfolio",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 213,
+        "saturation": 82,
+        "lightness": 49,
+        "formats": {
+          "rgb": "rgb(22, 115, 227)",
+          "rgba": "rgba(22, 115, 227, 0.75)",
+          "hex": "#1673E3",
+          "hsl": "hsl(213, 82%, 49%)",
+          "hsla": "hsla(213, 82%, 49%, 0.75)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 214,
+        "saturation": 92,
+        "lightness": 45,
+        "formats": {
+          "rgb": "rgb(9, 101, 220)",
+          "rgba": "rgba(9, 101, 220, 0.82)",
+          "hex": "#0965DC",
+          "hsl": "hsl(214, 92%, 45%)",
+          "hsla": "hsla(214, 92%, 45%, 0.82)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 220,
+        "saturation": 95,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(6, 87, 249)",
+          "rgba": "rgba(6, 87, 249, 0.77)",
+          "hex": "#0657F9",
+          "hsl": "hsl(220, 95%, 50%)",
+          "hsla": "hsla(220, 95%, 50%, 0.77)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 4",
+        "hue": 246,
+        "saturation": 82,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(73, 55, 235)",
+          "rgba": "rgba(73, 55, 235, 0.93)",
+          "hex": "#4937EB",
+          "hsl": "hsl(246, 82%, 57%)",
+          "hsla": "hsla(246, 82%, 57%, 0.93)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 208,
+        "saturation": 89,
+        "lightness": 52,
+        "formats": {
+          "rgb": "rgb(24, 140, 242)",
+          "rgba": "rgba(24, 140, 242, 0.93)",
+          "hex": "#188CF2",
+          "hsl": "hsl(208, 89%, 52%)",
+          "hsla": "hsla(208, 89%, 52%, 0.93)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T13:27:31.098770+00:00",
+    "sentiment": "energia",
+    "idea": "portfolio",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 9,
+        "saturation": 87,
+        "lightness": 49,
+        "formats": {
+          "rgb": "rgb(234, 49, 16)",
+          "rgba": "rgba(234, 49, 16, 0.75)",
+          "hex": "#EA3110",
+          "hsl": "hsl(9, 87%, 49%)",
+          "hsla": "hsla(9, 87%, 49%, 0.75)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 32,
+        "saturation": 89,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(241, 137, 19)",
+          "rgba": "rgba(241, 137, 19, 0.84)",
+          "hex": "#F18913",
+          "hsl": "hsl(32, 89%, 51%)",
+          "hsla": "hsla(32, 89%, 51%, 0.84)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 33,
+        "saturation": 93,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(246, 142, 14)",
+          "rgba": "rgba(246, 142, 14, 0.82)",
+          "hex": "#F68E0E",
+          "hsl": "hsl(33, 93%, 51%)",
+          "hsla": "hsla(33, 93%, 51%, 0.82)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 4",
+        "hue": 3,
+        "saturation": 90,
+        "lightness": 50,
+        "formats": {
+          "rgb": "rgb(242, 24, 13)",
+          "rgba": "rgba(242, 24, 13, 0.79)",
+          "hex": "#F2180D",
+          "hsl": "hsl(3, 90%, 50%)",
+          "hsla": "hsla(3, 90%, 50%, 0.79)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 338,
+        "saturation": 89,
+        "lightness": 60,
+        "formats": {
+          "rgb": "rgb(244, 62, 129)",
+          "rgba": "rgba(244, 62, 129, 0.92)",
+          "hex": "#F43E81",
+          "hsl": "hsl(338, 89%, 60%)",
+          "hsla": "hsla(338, 89%, 60%, 0.92)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  }
+]

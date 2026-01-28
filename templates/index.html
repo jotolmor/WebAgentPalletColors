@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Palette Studio</title>
+    <style>
+      body {
+        font-family: "Inter", system-ui, sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #0f172a, #1e293b 40%, #334155);
+        color: #0f172a;
+      }
+      header {
+        padding: 2.5rem 3rem 1rem;
+        color: #f8fafc;
+      }
+      h1 {
+        margin: 0 0 0.5rem;
+        font-size: 2.4rem;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 320px 1fr 360px;
+        gap: 2rem;
+        padding: 0 3rem 3rem;
+      }
+      form {
+        background: #fff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+        display: grid;
+        gap: 1rem;
+      }
+      label {
+        font-weight: 600;
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #d0d7e2;
+        padding: 0.6rem 0.75rem;
+        font-size: 0.95rem;
+        background: #fff;
+      }
+      button {
+        background: linear-gradient(120deg, #6366f1, #8b5cf6);
+        color: #fff;
+        border: none;
+        padding: 0.75rem 1rem;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .panel {
+        background: #fff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+      }
+      .panel.subtitle {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(8px);
+      }
+      .panel h2 {
+        margin-top: 0;
+      }
+      .layout-left {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .palette {
+        display: grid;
+        gap: 0.75rem;
+      }
+      .swatch {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        gap: 0.75rem;
+        align-items: center;
+        padding: 0.5rem;
+        border-radius: 12px;
+        background: #f1f5f9;
+      }
+      .color-box {
+        height: 70px;
+        border-radius: 12px;
+        border: 1px solid rgba(15, 23, 42, 0.12);
+      }
+      .meta {
+        font-size: 0.85rem;
+        color: #4b5563;
+      }
+      .text-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        border: 1px solid rgba(15, 23, 42, 0.15);
+      }
+      .palette-grid {
+        display: grid;
+        gap: 1rem;
+      }
+      .mini-palette {
+        display: grid;
+        gap: 0.5rem;
+        padding: 0.75rem;
+        border-radius: 12px;
+        background: #f8fafc;
+      }
+      .mini-row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.4rem;
+      }
+      .mini-swatch {
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .tokens {
+        white-space: pre-wrap;
+        font-family: "JetBrains Mono", "SFMono-Regular", monospace;
+        font-size: 0.85rem;
+        background: #111827;
+        color: #e2e8f0;
+        padding: 0.75rem;
+        border-radius: 12px;
+        margin-top: 1rem;
+      }
+      .controls {
+        display: grid;
+        gap: 1rem;
+        background: #fff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+      }
+      .control-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+        align-items: center;
+      }
+      .slider {
+        width: 100%;
+      }
+      .color-wheel {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: none;
+        padding: 0;
+        background: none;
+        cursor: pointer;
+      }
+      .hue-wheel {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: conic-gradient(
+          #f87171,
+          #facc15,
+          #4ade80,
+          #22d3ee,
+          #60a5fa,
+          #a78bfa,
+          #f472b6,
+          #f87171
+        );
+        border: 6px solid #e2e8f0;
+        box-shadow: inset 0 0 0 4px rgba(15, 23, 42, 0.08);
+        cursor: crosshair;
+      }
+      .triad {
+        display: flex;
+        gap: 0.75rem;
+        margin-top: 0.5rem;
+      }
+      .triad span {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 1px solid rgba(15, 23, 42, 0.12);
+        display: inline-block;
+      }
+      .inline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      @media (max-width: 900px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Web Palette Studio</h1>
+      <p>UI moderna + API profesional para paletas, presets y tokens.</p>
+    </header>
+    <main>
+      <div class="layout-left">
+        <form id="palette-form">
+          <div>
+            <label for="sentiment">Sentimiento (mood creativo)</label>
+            <select id="sentiment" name="sentiment">
+              <option value="alegria">Alegría / Bienestar</option>
+              <option value="amor">Amor / Afecto</option>
+              <option value="gratitud">Gratitud</option>
+              <option value="calma">Serenidad</option>
+              <option value="interes">Interés / Curiosidad</option>
+              <option value="orgullo">Orgullo / Admiración</option>
+              <option value="esperanza">Esperanza</option>
+              <option value="inspiracion">Inspiración</option>
+              <option value="miedo">Miedo</option>
+              <option value="tristeza">Tristeza</option>
+              <option value="ira">Ira / Enojo</option>
+              <option value="asco">Asco</option>
+              <option value="verguenza">Vergüenza / Culpa</option>
+              <option value="celos">Celos / Envidia</option>
+              <option value="aburrimiento">Aburrimiento / Indiferencia</option>
+              <option value="naturaleza">Naturaleza serena</option>
+            </select>
+          </div>
+          <div>
+            <label for="idea">Idea</label>
+            <textarea id="idea" name="idea" rows="2">Landing de bienestar</textarea>
+          </div>
+          <div class="inline">
+            <div>
+              <label for="style">Estilo</label>
+              <select id="style" name="style">
+                <option value="">Sin estilo</option>
+                <option value="minimalista">Minimalista</option>
+                <option value="brutalista">Brutalista</option>
+                <option value="retro">Retro</option>
+                <option value="futurista">Futurista</option>
+              </select>
+            </div>
+            <div>
+              <label for="brand">Marca/Logo</label>
+              <input id="brand" name="brand" placeholder="Logo azul" />
+            </div>
+          </div>
+          <div class="inline">
+            <div>
+              <label for="count">Cantidad</label>
+              <input id="count" name="count" type="number" min="3" max="8" value="5" />
+            </div>
+            <div>
+              <label for="seed">Seed</label>
+              <input id="seed" name="seed" type="number" placeholder="42" />
+            </div>
+          </div>
+          <div>
+            <label for="format">Exportar tokens</label>
+            <select id="format" name="format">
+              <option value="css">CSS Variables</option>
+              <option value="tailwind">Tailwind</option>
+              <option value="figma">Figma</option>
+            </select>
+          </div>
+          <button type="submit">Generar paleta</button>
+        </form>
+        <section class="panel subtitle">
+          <h2>Guía rápida</h2>
+          <p class="meta">
+            Selecciona un mood creativo, ajusta tonos y exporta tokens para tu diseño.
+          </p>
+        </section>
+      </div>
+
+      <section class="panel">
+        <h2>Resultado</h2>
+        <p id="contrast"></p>
+        <div class="palette" id="palette"></div>
+        <h3>Tokens exportados</h3>
+        <div class="tokens" id="tokens"></div>
+        <div class="panel subtitle">
+          <h3>Ajustes rápidos (tokens)</h3>
+          <div class="control-row">
+            <label for="token-color">Color</label>
+            <input id="token-color" class="color-wheel" type="color" value="#94A3B8" />
+          </div>
+          <div class="control-row">
+            <label for="token-hue">Tono</label>
+            <input id="token-hue" class="slider" type="range" min="0" max="360" value="210" />
+          </div>
+          <div class="control-row">
+            <label for="token-lightness">Luminosidad</label>
+            <input id="token-lightness" class="slider" type="range" min="0" max="100" value="60" />
+          </div>
+          <div class="control-row">
+            <label for="token-alpha">Transparencia</label>
+            <input id="token-alpha" class="slider" type="range" min="0" max="1" step="0.01" value="0.85" />
+          </div>
+        </div>
+        <h3>Paletas AI sugeridas</h3>
+        <div class="palette-grid" id="ai-palettes"></div>
+      </section>
+      <section class="controls">
+        <h2>Editar color</h2>
+        <div class="control-row">
+          <label for="color-wheel">Color base</label>
+          <input id="color-wheel" class="color-wheel" type="color" value="#94A3B8" />
+        </div>
+        <div class="control-row">
+          <label for="hue">Tono</label>
+          <input id="hue" class="slider" type="range" min="0" max="360" value="210" />
+        </div>
+        <div class="control-row">
+          <label for="lightness">Luminosidad</label>
+          <input id="lightness" class="slider" type="range" min="0" max="100" value="60" />
+        </div>
+        <div class="control-row">
+          <label for="alpha">Transparencia</label>
+          <input id="alpha" class="slider" type="range" min="0" max="1" step="0.01" value="0.85" />
+        </div>
+        <div class="control-row">
+          <label>Rueda de color</label>
+          <div id="hue-wheel" class="hue-wheel" aria-label="Rueda de color"></div>
+        </div>
+        <div class="inline">
+          <button type="button" id="add-color">Añadir color</button>
+          <button type="button" id="delete-color">Eliminar color</button>
+        </div>
+        <div>
+          <strong>Triada sugerida</strong>
+          <div class="triad">
+            <span id="triad-a"></span>
+            <span id="triad-b"></span>
+            <span id="triad-c"></span>
+          </div>
+        </div>
+        <div>
+          <label for="page-type">Tipo de página</label>
+          <select id="page-type">
+            <option value="">Selecciona un tipo</option>
+            <option value="landing">Landing de producto</option>
+            <option value="ecommerce">E-commerce</option>
+            <option value="portfolio">Portfolio creativo</option>
+            <option value="dashboard">Dashboard SaaS</option>
+          </select>
+          <p class="meta" id="page-recommendation"></p>
+        </div>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
