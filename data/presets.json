@@ -2359,5 +2359,646 @@
         "text": "#0f172a"
       }
     ]
+  },
+  {
+    "created_at": "2026-01-28T21:18:31.325405+00:00",
+    "sentiment": "calma",
+    "idea": "interiores",
+    "style": null,
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 184,
+        "saturation": 31,
+        "lightness": 90,
+        "formats": {
+          "rgb": "rgb(222, 236, 237)",
+          "rgba": "rgba(222, 236, 237, 0.82)",
+          "hex": "#DEECED",
+          "hsl": "hsl(184, 29%, 90%)",
+          "hsla": "hsla(184, 29%, 90%, 0.82)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 204,
+        "saturation": 30,
+        "lightness": 90,
+        "formats": {
+          "rgb": "rgb(222, 231, 237)",
+          "rgba": "rgba(222, 231, 237, 0.92)",
+          "hex": "#DEE7ED",
+          "hsl": "hsl(204, 29%, 90%)",
+          "hsla": "hsla(204, 29%, 90%, 0.92)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 212,
+        "saturation": 30,
+        "lightness": 88,
+        "formats": {
+          "rgb": "rgb(215, 224, 234)",
+          "rgba": "rgba(215, 224, 234, 0.82)",
+          "hex": "#D7E0EA",
+          "hsl": "hsl(212, 31%, 88%)",
+          "hsla": "hsla(212, 31%, 88%, 0.82)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 218,
+        "saturation": 37,
+        "lightness": 78,
+        "formats": {
+          "rgb": "rgb(178, 193, 220)",
+          "rgba": "rgba(178, 193, 220, 0.75)",
+          "hex": "#B2C1DC",
+          "hsl": "hsl(219, 38%, 78%)",
+          "hsla": "hsla(219, 38%, 78%, 0.75)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 182,
+        "saturation": 21,
+        "lightness": 85,
+        "formats": {
+          "rgb": "rgb(209, 224, 225)",
+          "rgba": "rgba(209, 224, 225, 0.91)",
+          "hex": "#D1E0E1",
+          "hsl": "hsl(184, 21%, 85%)",
+          "hsla": "hsla(184, 21%, 85%, 0.91)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T21:22:01.186052+00:00",
+    "sentiment": "alegria",
+    "idea": "Landing agresivo",
+    "style": "brutalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 50,
+        "saturation": 82,
+        "lightness": 57,
+        "formats": {
+          "rgb": "rgb(235, 205, 55)",
+          "rgba": "rgba(235, 205, 55, 0.94)",
+          "hex": "#EBCD37",
+          "hsl": "hsl(50, 82%, 57%)",
+          "hsla": "hsla(50, 82%, 57%, 0.94)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 57,
+        "saturation": 88,
+        "lightness": 51,
+        "formats": {
+          "rgb": "rgb(240, 229, 20)",
+          "rgba": "rgba(240, 229, 20, 0.93)",
+          "hex": "#F0E514",
+          "hsl": "hsl(57, 88%, 51%)",
+          "hsla": "hsla(57, 88%, 51%, 0.93)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 43,
+        "saturation": 72,
+        "lightness": 46,
+        "formats": {
+          "rgb": "rgb(202, 154, 33)",
+          "rgba": "rgba(202, 154, 33, 0.78)",
+          "hex": "#CA9A21",
+          "hsl": "hsl(43, 72%, 46%)",
+          "hsla": "hsla(43, 72%, 46%, 0.78)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T21:25:37.976427+00:00",
+    "sentiment": "alegria",
+    "idea": "Landing agresivo",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 38,
+        "saturation": 22,
+        "lightness": 92,
+        "formats": {
+          "rgb": "rgb(239, 236, 230)",
+          "rgba": "rgba(239, 236, 230, 0.78)",
+          "hex": "#EFECE6",
+          "hsl": "hsl(40, 22%, 92%)",
+          "hsla": "hsla(40, 22%, 92%, 0.78)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 55,
+        "saturation": 14,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(231, 230, 223)",
+          "rgba": "rgba(231, 230, 223, 0.77)",
+          "hex": "#E7E6DF",
+          "hsl": "hsl(53, 14%, 89%)",
+          "hsla": "hsla(53, 14%, 89%, 0.77)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 27,
+        "saturation": 13,
+        "lightness": 84,
+        "formats": {
+          "rgb": "rgb(220, 214, 209)",
+          "rgba": "rgba(220, 214, 209, 0.93)",
+          "hex": "#DCD6D1",
+          "hsl": "hsl(27, 14%, 84%)",
+          "hsla": "hsla(27, 14%, 84%, 0.93)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 68,
+        "saturation": 20,
+        "lightness": 77,
+        "formats": {
+          "rgb": "rgb(205, 208, 185)",
+          "rgba": "rgba(205, 208, 185, 0.81)",
+          "hex": "#CDD0B9",
+          "hsl": "hsl(68, 20%, 77%)",
+          "hsla": "hsla(68, 20%, 77%, 0.81)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T21:36:16.371943+00:00",
+    "sentiment": "interes",
+    "idea": "Landing de bienestar",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 201,
+        "saturation": 29,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(173, 197, 210)",
+          "rgba": "rgba(173, 197, 210, 0.87)",
+          "hex": "#ADC5D2",
+          "hsl": "hsl(201, 29%, 75%)",
+          "hsla": "hsla(201, 29%, 75%, 0.87)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 258,
+        "saturation": 18,
+        "lightness": 76,
+        "formats": {
+          "rgb": "rgb(189, 183, 205)",
+          "rgba": "rgba(189, 183, 205, 0.83)",
+          "hex": "#BDB7CD",
+          "hsl": "hsl(256, 18%, 76%)",
+          "hsla": "hsla(256, 18%, 76%, 0.83)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 296,
+        "saturation": 12,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(230, 224, 230)",
+          "rgba": "rgba(230, 224, 230, 0.75)",
+          "hex": "#E6E0E6",
+          "hsl": "hsl(300, 11%, 89%)",
+          "hsla": "hsla(300, 11%, 89%, 0.75)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 228,
+        "saturation": 17,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(180, 185, 202)",
+          "rgba": "rgba(180, 185, 202, 0.76)",
+          "hex": "#B4B9CA",
+          "hsl": "hsl(226, 17%, 75%)",
+          "hsla": "hsla(226, 17%, 75%, 0.76)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T21:50:55.386782+00:00",
+    "sentiment": "esperanza",
+    "idea": "Landing de bienestar",
+    "style": "minimalista",
+    "brand_hint": null,
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 141,
+        "saturation": 29,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(173, 210, 186)",
+          "rgba": "rgba(173, 210, 186, 0.87)",
+          "hex": "#ADD2BA",
+          "hsl": "hsl(141, 29%, 75%)",
+          "hsla": "hsla(141, 29%, 75%, 0.87)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 158,
+        "saturation": 18,
+        "lightness": 76,
+        "formats": {
+          "rgb": "rgb(183, 205, 197)",
+          "rgba": "rgba(183, 205, 197, 0.83)",
+          "hex": "#B7CDC5",
+          "hsl": "hsl(158, 18%, 76%)",
+          "hsla": "hsla(158, 18%, 76%, 0.83)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 116,
+        "saturation": 12,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(224, 230, 224)",
+          "rgba": "rgba(224, 230, 224, 0.75)",
+          "hex": "#E0E6E0",
+          "hsl": "hsl(120, 11%, 89%)",
+          "hsla": "hsla(120, 11%, 89%, 0.75)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 178,
+        "saturation": 17,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(180, 202, 201)",
+          "rgba": "rgba(180, 202, 201, 0.76)",
+          "hex": "#B4CAC9",
+          "hsl": "hsl(177, 17%, 75%)",
+          "hsla": "hsla(177, 17%, 75%, 0.76)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 97,
+        "saturation": 29,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(230, 239, 225)",
+          "rgba": "rgba(230, 239, 225, 0.93)",
+          "hex": "#E6EFE1",
+          "hsl": "hsl(99, 30%, 91%)",
+          "hsla": "hsla(99, 30%, 91%, 0.93)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T21:52:15.837899+00:00",
+    "sentiment": "amor",
+    "idea": "Landing de bienestar",
+    "style": "minimalista",
+    "brand_hint": "Jorge Toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 331,
+        "saturation": 29,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(210, 173, 191)",
+          "rgba": "rgba(210, 173, 191, 0.87)",
+          "hex": "#D2ADBF",
+          "hsl": "hsl(331, 29%, 75%)",
+          "hsla": "hsla(331, 29%, 75%, 0.87)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 2",
+        "hue": 343,
+        "saturation": 18,
+        "lightness": 76,
+        "formats": {
+          "rgb": "rgb(205, 183, 189)",
+          "rgba": "rgba(205, 183, 189, 0.83)",
+          "hex": "#CDB7BD",
+          "hsl": "hsl(344, 18%, 76%)",
+          "hsla": "hsla(344, 18%, 76%, 0.83)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 346,
+        "saturation": 12,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(230, 224, 225)",
+          "rgba": "rgba(230, 224, 225, 0.75)",
+          "hex": "#E6E0E1",
+          "hsl": "hsl(350, 11%, 89%)",
+          "hsla": "hsla(350, 11%, 89%, 0.75)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 328,
+        "saturation": 17,
+        "lightness": 75,
+        "formats": {
+          "rgb": "rgb(202, 180, 192)",
+          "rgba": "rgba(202, 180, 192, 0.76)",
+          "hex": "#CAB4C0",
+          "hsl": "hsl(327, 17%, 75%)",
+          "hsla": "hsla(327, 17%, 75%, 0.76)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 5",
+        "hue": 7,
+        "saturation": 29,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(239, 227, 225)",
+          "rgba": "rgba(239, 227, 225, 0.93)",
+          "hex": "#EFE3E1",
+          "hsl": "hsl(9, 30%, 91%)",
+          "hsla": "hsla(9, 30%, 91%, 0.93)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T22:03:27.367394+00:00",
+    "sentiment": "alegria",
+    "idea": "Landing de puro",
+    "style": "minimalista",
+    "brand_hint": "J. toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 51,
+        "saturation": 28,
+        "lightness": 91,
+        "formats": {
+          "rgb": "rgb(238, 237, 226)",
+          "rgba": "rgba(238, 237, 226, 0.76)",
+          "hex": "#EEEDE2",
+          "hsl": "hsl(55, 26%, 91%)",
+          "hsla": "hsla(55, 26%, 91%, 0.76)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 56,
+        "saturation": 30,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(221, 219, 192)",
+          "rgba": "rgba(221, 219, 192, 0.78)",
+          "hex": "#DDDBC0",
+          "hsl": "hsl(56, 30%, 81%)",
+          "hsla": "hsla(56, 30%, 81%, 0.78)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 38,
+        "saturation": 18,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(232, 228, 222)",
+          "rgba": "rgba(232, 228, 222, 0.91)",
+          "hex": "#E8E4DE",
+          "hsl": "hsl(36, 18%, 89%)",
+          "hsla": "hsla(36, 18%, 89%, 0.91)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 68,
+        "saturation": 14,
+        "lightness": 76,
+        "formats": {
+          "rgb": "rgb(200, 202, 185)",
+          "rgba": "rgba(200, 202, 185, 0.88)",
+          "hex": "#C8CAB9",
+          "hsl": "hsl(67, 14%, 76%)",
+          "hsla": "hsla(67, 14%, 76%, 0.88)"
+        },
+        "text": "#f8fafc"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T22:13:33.827934+00:00",
+    "sentiment": "alegria",
+    "idea": "Landing de alegria",
+    "style": "minimalista",
+    "brand_hint": "J.toledo",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 45,
+        "saturation": 25,
+        "lightness": 92,
+        "formats": {
+          "rgb": "rgb(240, 237, 230)",
+          "rgba": "rgba(240, 237, 230, 0.91)",
+          "hex": "#F0EDE6",
+          "hsl": "hsl(42, 25%, 92%)",
+          "hsla": "hsla(42, 25%, 92%, 0.91)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 52,
+        "saturation": 20,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(216, 214, 197)",
+          "rgba": "rgba(216, 214, 197, 0.85)",
+          "hex": "#D8D6C5",
+          "hsl": "hsl(54, 20%, 81%)",
+          "hsla": "hsla(54, 20%, 81%, 0.85)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 3",
+        "hue": 34,
+        "saturation": 19,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(232, 228, 222)",
+          "rgba": "rgba(232, 228, 222, 0.77)",
+          "hex": "#E8E4DE",
+          "hsl": "hsl(36, 18%, 89%)",
+          "hsla": "hsla(36, 18%, 89%, 0.77)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 67,
+        "saturation": 12,
+        "lightness": 81,
+        "formats": {
+          "rgb": "rgb(211, 212, 201)",
+          "rgba": "rgba(211, 212, 201, 0.90)",
+          "hex": "#D3D4C9",
+          "hsl": "hsl(65, 11%, 81%)",
+          "hsla": "hsla(65, 11%, 81%, 0.90)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 5",
+        "hue": 31,
+        "saturation": 26,
+        "lightness": 77,
+        "formats": {
+          "rgb": "rgb(212, 197, 181)",
+          "rgba": "rgba(212, 197, 181, 0.83)",
+          "hex": "#D4C5B5",
+          "hsl": "hsl(31, 26%, 77%)",
+          "hsla": "hsla(31, 26%, 77%, 0.83)"
+        },
+        "text": "#0f172a"
+      }
+    ]
+  },
+  {
+    "created_at": "2026-01-28T22:28:46.270751+00:00",
+    "sentiment": "interes",
+    "idea": "Landing de salvaje",
+    "style": "minimalista",
+    "brand_hint": "Pepe",
+    "palette": [
+      {
+        "name": "Color 1",
+        "hue": 207,
+        "saturation": 25,
+        "lightness": 95,
+        "formats": {
+          "rgb": "rgb(239, 243, 245)",
+          "rgba": "rgba(239, 243, 245, 0.75)",
+          "hex": "#EFF3F5",
+          "hsl": "hsl(200, 23%, 95%)",
+          "hsla": "hsla(200, 23%, 95%, 0.75)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 2",
+        "hue": 262,
+        "saturation": 17,
+        "lightness": 77,
+        "formats": {
+          "rgb": "rgb(194, 186, 206)",
+          "rgba": "rgba(194, 186, 206, 0.94)",
+          "hex": "#C2BACE",
+          "hsl": "hsl(264, 17%, 77%)",
+          "hsla": "hsla(264, 17%, 77%, 0.94)"
+        },
+        "text": "#f8fafc"
+      },
+      {
+        "name": "Color 3",
+        "hue": 301,
+        "saturation": 10,
+        "lightness": 93,
+        "formats": {
+          "rgb": "rgb(239, 235, 239)",
+          "rgba": "rgba(239, 235, 239, 0.93)",
+          "hex": "#EFEBEF",
+          "hsl": "hsl(300, 11%, 93%)",
+          "hsla": "hsla(300, 11%, 93%, 0.93)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 4",
+        "hue": 220,
+        "saturation": 22,
+        "lightness": 89,
+        "formats": {
+          "rgb": "rgb(221, 225, 233)",
+          "rgba": "rgba(221, 225, 233, 0.90)",
+          "hex": "#DDE1E9",
+          "hsl": "hsl(220, 21%, 89%)",
+          "hsla": "hsla(220, 21%, 89%, 0.90)"
+        },
+        "text": "#0f172a"
+      },
+      {
+        "name": "Color 5",
+        "hue": 181,
+        "saturation": 14,
+        "lightness": 79,
+        "formats": {
+          "rgb": "rgb(194, 209, 209)",
+          "rgba": "rgba(194, 209, 209, 0.92)",
+          "hex": "#C2D1D1",
+          "hsl": "hsl(180, 14%, 79%)",
+          "hsla": "hsla(180, 14%, 79%, 0.92)"
+        },
+        "text": "#0f172a"
+      }
+    ]
   }
 ]

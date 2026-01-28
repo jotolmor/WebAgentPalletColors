@@ -106,13 +106,72 @@ const renderAiPalettes = (data) => {
   });
 };
 
+const getRelativeLuminance = (hex) => {
+  const [r, g, b] = hexToRgb(hex).map((value) => value / 255);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+};
+
+const buildHoverColor = (color) => {
+  const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+  const baseHex = color.formats.hex.toUpperCase();
+  const baseLuminance = getRelativeLuminance(baseHex);
+  let hue = (color.hue + 22) % 360;
+  const lightnessShift = color.lightness > 55 ? -14 : 14;
+  let lightness = clamp(color.lightness + lightnessShift, 18, 88);
+  let saturation = clamp(color.saturation + 6, 30, 90);
+  const hueDistance = (value) => Math.min(value, 360 - value);
+  const isTooClose = (candidateHex, candidateHue, candidateLightness) => {
+    const luminanceDelta = Math.abs(getRelativeLuminance(candidateHex) - baseLuminance);
+    const hueDelta = hueDistance(Math.abs(candidateHue - color.hue));
+    const lightnessDelta = Math.abs(candidateLightness - color.lightness);
+    return (
+      candidateHex.toUpperCase() === baseHex ||
+      (luminanceDelta < 0.07 && hueDelta < 18 && lightnessDelta < 10)
+    );
+  };
+  let hex = hslToHex(hue, saturation, lightness);
+  if (isTooClose(hex, hue, lightness)) {
+    hue = (hue + 28) % 360;
+    lightness = clamp(color.lightness + (color.lightness > 50 ? -22 : 22), 15, 90);
+    saturation = clamp(color.saturation + 12, 35, 95);
+    hex = hslToHex(hue, saturation, lightness);
+  }
+  return {
+    ...color,
+    hue,
+    saturation,
+    lightness,
+    formats: {
+      ...color.formats,
+      hex: hex.toUpperCase(),
+      rgb: `rgb(${hexToRgb(hex).join(", ")})`,
+      hsl: `hsl(${hue}, ${saturation}%, ${lightness}%)`,
+    },
+  };
+};
+
 const renderRecommendations = () => {
   if (!paletteState.length || !uiRecommendations) return;
   const sorted = [...paletteState].sort((a, b) => a.lightness - b.lightness);
   const darkest = sorted[0];
   const lightest = sorted[sorted.length - 1];
   const accent = sorted[Math.floor(sorted.length / 2)];
-  const hover = sorted[Math.max(0, sorted.length - 2)];
+  const hover = buildHoverColor(accent);
+  const hoverDelta = Math.abs(
+    getRelativeLuminance(hover.formats.hex) - getRelativeLuminance(accent.formats.hex),
+  );
+  const hoverDeltaPct = Math.round(hoverDelta * 100);
+  const hoverContrastRatio = (
+    (Math.max(
+      getRelativeLuminance(hover.formats.hex),
+      getRelativeLuminance(accent.formats.hex),
+    ) + 0.05) /
+    (Math.min(
+      getRelativeLuminance(hover.formats.hex),
+      getRelativeLuminance(accent.formats.hex),
+    ) + 0.05)
+  ).toFixed(2);
+  const hoverSaturationDelta = Math.abs(hover.saturation - accent.saturation);
   uiRecommendations.innerHTML = `
     <p class="meta">Usa estas combinaciones para una UI coherente y creativa:</p>
     <ul class="meta">
@@ -122,6 +181,9 @@ const renderRecommendations = () => {
       <li><strong>Menú navegación:</strong> ${darkest.formats.hex}</li>
       <li><strong>Botones:</strong> ${accent.formats.hex}</li>
       <li><strong>Botones hover:</strong> ${hover.formats.hex}</li>
+      <li><strong>Diferencia hover/base:</strong> ${hoverDeltaPct}%</li>
+      <li><strong>Contraste hover/base:</strong> ${hoverContrastRatio}:1</li>
+      <li><strong>Saturación hover/base:</strong> ${hoverSaturationDelta}%</li>
       <li><strong>Footer:</strong> ${darkest.formats.hex}</li>
     </ul>
   `;
@@ -399,25 +461,70 @@ hueWheel.addEventListener("click", (event) => {
 
 pageType.addEventListener("change", () => {
   const map = {
-    landing: {
+    static: {
+      sentiment: "calma",
+      style: "minimalista",
+      recommendation: "Mantén una paleta limpia y poco saturada para claridad.",
+    },
+    dynamic: {
       sentiment: "energia",
       style: "futurista",
-      recommendation: "Usa colores vibrantes con alto contraste para captar atención.",
+      recommendation: "Contrastes claros para destacar contenido cambiante.",
+    },
+    informative: {
+      sentiment: "confianza",
+      style: "minimalista",
+      recommendation: "Usa azules serenos y fondos claros para lectura.",
+    },
+    corporate: {
+      sentiment: "orgullo",
+      style: "minimalista",
+      recommendation: "Paleta sobria con acentos para transmitir autoridad.",
+    },
+    blog: {
+      sentiment: "calma",
+      style: "retro",
+      recommendation: "Tonos suaves y cálidos para lectura prolongada.",
     },
     ecommerce: {
       sentiment: "confianza",
       style: "minimalista",
-      recommendation: "Mantén tonos claros y confiables para facilitar la compra.",
+      recommendation: "Apuesta por claridad y botones visibles para conversión.",
     },
     portfolio: {
-      sentiment: "creatividad",
+      sentiment: "inspiracion",
       style: "retro",
       recommendation: "Combina acentos llamativos para destacar proyectos.",
     },
-    dashboard: {
+    landing: {
+      sentiment: "energia",
+      style: "futurista",
+      recommendation: "Colores vibrantes con alto contraste para captar atención.",
+    },
+    forum: {
+      sentiment: "interes",
+      style: "minimalista",
+      recommendation: "Contraste moderado para jerarquía en hilos.",
+    },
+    social: {
+      sentiment: "alegria",
+      style: "retro",
+      recommendation: "Paleta viva para invitar a la interacción.",
+    },
+    education: {
+      sentiment: "esperanza",
+      style: "minimalista",
+      recommendation: "Tonos claros y frescos para foco y confianza.",
+    },
+    public: {
+      sentiment: "gratitud",
+      style: "minimalista",
+      recommendation: "Paleta amable y accesible para todos los usuarios.",
+    },
+    private: {
       sentiment: "confianza",
       style: "minimalista",
-      recommendation: "Prioriza legibilidad y fondos neutros.",
+      recommendation: "Tonos sobrios que transmitan seguridad.",
     },
   };
   const selection = map[pageType.value];

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict, List, Tuple
+from typing import Dict, List, Tuple
 import random
 
 
@@ -336,9 +336,9 @@ def format_color(r: int, g: int, b: int, alpha: float) -> Dict[str, str]:
 
 
 def relative_luminance(r: int, g: int, b: int) -> float:
-    def channel(value: float) -> float:
-        value = clamp(value, 0, 255) / 255
-        return value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4
+    def channel(value: int) -> float:
+        normalized_value = clamp(value, 0, 255) / 255
+        return normalized_value / 12.92 if normalized_value <= 0.04045 else ((normalized_value + 0.055) / 1.055) ** 2.4
 
     r_l = channel(r)
     g_l = channel(g)
@@ -483,11 +483,12 @@ def generate_ai_variations(
     return variations
 
 
-def build_design_tokens(palette: List[Dict[str, Any]]) -> Dict[str, str]:
-    tokens: Dict[str, str] = {}
+def build_design_tokens(palette: List[Dict[str, object]]) -> Dict[str, str]:
+    tokens = {}
     for index, color in enumerate(palette, start=1):
         formats = color.get("formats", {})
-        tokens[f"palette-{index}"] = formats.get("hex", "") if isinstance(formats, dict) else ""
+        if isinstance(formats, dict):
+            tokens[f"palette-{index}"] = formats.get("hex", "")
     return tokens
 
 
