@@ -15,13 +15,18 @@ const triadC = document.getElementById("triad-c");
 const pageType = document.getElementById("page-type");
 const pageRecommendation = document.getElementById("page-recommendation");
 const aiPalettes = document.getElementById("ai-palettes");
-const tokenColor = document.getElementById("token-color");
-const tokenHue = document.getElementById("token-hue");
-const tokenLightness = document.getElementById("token-lightness");
-const tokenAlpha = document.getElementById("token-alpha");
+const uiRecommendations = document.getElementById("ui-recommendations");
+const layoutHtml = document.getElementById("layout-html");
+const layoutBody = document.getElementById("layout-body");
+const layoutNav = document.getElementById("layout-nav");
+const layoutSlideshow = document.getElementById("layout-slideshow");
+const layoutMain = document.getElementById("layout-main");
+const layoutAside = document.getElementById("layout-aside");
+const layoutFooter = document.getElementById("layout-footer");
 
 let paletteState = [];
 let selectedIndex = 0;
+let baseHue = 210;
 
 const toPayload = () => ({
   sentiment: form.sentiment.value,
@@ -47,6 +52,7 @@ const renderPalette = (data) => {
   contrastText.textContent = `Contraste mínimo: ${data.contrast.min_ratio} — ${data.contrast.note}`;
 
   paletteState = data.palette.map((color) => ({ ...color }));
+  baseHue = paletteState[0]?.hue ?? baseHue;
   paletteState.forEach((color, index) => {
     const swatch = document.createElement("div");
     swatch.className = "swatch";
@@ -75,6 +81,7 @@ const renderPalette = (data) => {
     paletteContainer.appendChild(swatch);
   });
   syncControlsWithSelection();
+  renderRecommendations();
 };
 
 const renderAiPalettes = (data) => {
@@ -99,13 +106,51 @@ const renderAiPalettes = (data) => {
   });
 };
 
-const updateTokenPreview = () => {
-  const hex = tokenColor.value;
-  const hsl = hexToHsl(hex);
-  tokenHue.value = hsl.h;
-  tokenLightness.value = hsl.l;
-  tokensEl.style.background = hex;
-  tokensEl.style.color = getBestTextColor(hex);
+const renderRecommendations = () => {
+  if (!paletteState.length || !uiRecommendations) return;
+  const sorted = [...paletteState].sort((a, b) => a.lightness - b.lightness);
+  const darkest = sorted[0];
+  const lightest = sorted[sorted.length - 1];
+  const accent = sorted[Math.floor(sorted.length / 2)];
+  const hover = sorted[Math.max(0, sorted.length - 2)];
+  uiRecommendations.innerHTML = `
+    <p class="meta">Usa estas combinaciones para una UI coherente y creativa:</p>
+    <ul class="meta">
+      <li><strong>HTML fondo:</strong> ${lightest.formats.hex}</li>
+      <li><strong>Body fondo:</strong> ${sorted[sorted.length - 2].formats.hex}</li>
+      <li><strong>Encabezado:</strong> ${accent.formats.hex}</li>
+      <li><strong>Menú navegación:</strong> ${darkest.formats.hex}</li>
+      <li><strong>Botones:</strong> ${accent.formats.hex}</li>
+      <li><strong>Botones hover:</strong> ${hover.formats.hex}</li>
+      <li><strong>Footer:</strong> ${darkest.formats.hex}</li>
+    </ul>
+  `;
+  renderLayoutPreview({
+    html: lightest.formats.hex,
+    body: sorted[sorted.length - 2].formats.hex,
+    nav: darkest.formats.hex,
+    slideshow: accent.formats.hex,
+    main: accent.formats.hex,
+    aside: hover.formats.hex,
+    footer: darkest.formats.hex,
+  });
+};
+
+const setLayoutBlock = (element, hex) => {
+  if (!element) return;
+  element.style.background = hex;
+  element.style.color = getBestTextColor(hex);
+  element.textContent = `${element.dataset.label || element.textContent} ${hex}`;
+};
+
+const renderLayoutPreview = ({ html, body, nav, slideshow, main, aside, footer }) => {
+  setLayoutBlock(layoutHtml, html);
+  setLayoutBlock(layoutBody, body);
+  setLayoutBlock(layoutNav, nav);
+  setLayoutBlock(layoutSlideshow, slideshow);
+  setLayoutBlock(layoutMain, main);
+  setLayoutBlock(layoutAside, aside);
+  setLayoutBlock(layoutFooter, footer);
 };
 
 const hexToHsl = (hex) => {
@@ -269,7 +314,6 @@ form.addEventListener("submit", async (event) => {
     typeof tokens.content === "string"
       ? tokens.content
       : JSON.stringify(tokens.content, null, 2);
-  updateTokenPreview();
 });
 
 paletteContainer.addEventListener("click", (event) => {
@@ -281,7 +325,24 @@ paletteContainer.addEventListener("click", (event) => {
 });
 
 colorWheel.addEventListener("input", () => {
-  updateSelectedColor(colorWheel.value, alphaSlider.value);
+  const newHue = hexToHsl(colorWheel.value).h;
+  const delta = newHue - baseHue;
+  paletteState = paletteState.map((color) => {
+    const nextHue = (color.hue + delta + 360) % 360;
+    const nextHex = hslToHex(nextHue, color.saturation, color.lightness);
+    return {
+      ...color,
+      hue: nextHue,
+      formats: {
+        ...color.formats,
+        hex: nextHex.toUpperCase(),
+        rgb: `rgb(${hexToRgb(nextHex).join(", ")})`,
+        hsl: `hsl(${nextHue}, ${color.saturation}%, ${color.lightness}%)`,
+      },
+    };
+  });
+  baseHue = newHue;
+  renderPalette({ palette: paletteState, contrast: { min_ratio: "-", note: "Personalizado" } });
 });
 
 hueSlider.addEventListener("input", () => {
@@ -296,26 +357,6 @@ lightnessSlider.addEventListener("input", () => {
 
 alphaSlider.addEventListener("input", () => {
   updateSelectedColor(colorWheel.value, alphaSlider.value);
-});
-
-tokenColor.addEventListener("input", () => {
-  updateTokenPreview();
-});
-
-tokenHue.addEventListener("input", () => {
-  const hex = hslToHex(Number(tokenHue.value), 60, Number(tokenLightness.value));
-  tokenColor.value = hex;
-  updateTokenPreview();
-});
-
-tokenLightness.addEventListener("input", () => {
-  const hex = hslToHex(Number(tokenHue.value), 60, Number(tokenLightness.value));
-  tokenColor.value = hex;
-  updateTokenPreview();
-});
-
-tokenAlpha.addEventListener("input", () => {
-  tokensEl.style.opacity = tokenAlpha.value;
 });
 
 addColorButton.addEventListener("click", () => {

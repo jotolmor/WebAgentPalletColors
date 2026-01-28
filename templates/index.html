@@ -144,6 +144,30 @@
         padding: 1.5rem;
         box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
       }
+      .layout-preview {
+        display: grid;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        border-radius: 16px;
+        background: #f8fafc;
+        border: 1px solid rgba(15, 23, 42, 0.1);
+      }
+      .layout-block {
+        border-radius: 10px;
+        padding: 0.5rem 0.75rem;
+        color: #0f172a;
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+      .layout-row {
+        display: grid;
+        grid-template-columns: 1fr 240px;
+        gap: 0.75rem;
+      }
+      .layout-column {
+        display: grid;
+        gap: 0.5rem;
+      }
       .control-row {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -287,24 +311,23 @@
         <div class="palette" id="palette"></div>
         <h3>Tokens exportados</h3>
         <div class="tokens" id="tokens"></div>
-        <div class="panel subtitle">
-          <h3>Ajustes rápidos (tokens)</h3>
-          <div class="control-row">
-            <label for="token-color">Color</label>
-            <input id="token-color" class="color-wheel" type="color" value="#94A3B8" />
+        <h3>Recomendaciones UI</h3>
+        <div class="panel subtitle" id="ui-recommendations"></div>
+        <h3>Vista previa de layout</h3>
+        <div class="layout-preview" id="layout-preview">
+          <div class="layout-block" id="layout-html" data-label="HTML">HTML</div>
+          <div class="layout-block" id="layout-body" data-label="Body">Body</div>
+          <div class="layout-block" id="layout-nav" data-label="Navegación">Navegación</div>
+          <div class="layout-block" id="layout-slideshow" data-label="Slideshow">Slideshow</div>
+          <div class="layout-row">
+            <div class="layout-column">
+              <div class="layout-block" id="layout-main" data-label="Main">Main</div>
+            </div>
+            <div class="layout-column">
+              <div class="layout-block" id="layout-aside" data-label="Aside">Aside</div>
+            </div>
           </div>
-          <div class="control-row">
-            <label for="token-hue">Tono</label>
-            <input id="token-hue" class="slider" type="range" min="0" max="360" value="210" />
-          </div>
-          <div class="control-row">
-            <label for="token-lightness">Luminosidad</label>
-            <input id="token-lightness" class="slider" type="range" min="0" max="100" value="60" />
-          </div>
-          <div class="control-row">
-            <label for="token-alpha">Transparencia</label>
-            <input id="token-alpha" class="slider" type="range" min="0" max="1" step="0.01" value="0.85" />
-          </div>
+          <div class="layout-block" id="layout-footer" data-label="Footer">Footer</div>
         </div>
         <h3>Paletas AI sugeridas</h3>
         <div class="palette-grid" id="ai-palettes"></div>
